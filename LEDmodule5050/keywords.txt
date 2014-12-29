@@ -1,0 +1,32 @@
+#######################################
+# Syntax Coloring Map For LedModule5050
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+FullColorLedModule	KEYWORD1
+color			KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+Setup		KEYWORD2
+On		KEYWORD2
+Off		KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+_Off			LITERAL1
+_White 			LITERAL1
+_HalfWhite 		LITERAL1
+_Green 			LITERAL1
+_Red 			LITERAL1
+_Blue 			LITERAL1
+_Margenta 		LITERAL1
+_Purple 		LITERAL1
+_Black 			LITERAL1
+
