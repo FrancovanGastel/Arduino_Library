@@ -1,0 +1,36 @@
+#######################################
+# Syntax Coloring Map For SwitchRead
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+SwitchRead		KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+tlSwitch	KEYWORD2
+tlcSwitch	KEYWORD2
+lcSwitch	KEYWORD2
+wlSwitch	KEYWORD2
+wlSwitch	KEYWORD2
+
+
+ttSwitch	KEYWORD2
+ttcSwitch	KEYWORD2
+tcSwitch	KEYWORD2
+wtSwitch	KEYWORD2
+wtSwitch	KEYWORD2
+
+tsSitch		KEYWORD2
+
+Poll		KEYWORD2
+Reset		KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+

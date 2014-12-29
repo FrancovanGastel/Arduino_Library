@@ -1,0 +1,54 @@
+#ifndef SwitchReadInt_h
+#define SwitchReadInt_h
+#include "pins_arduino.h"
+#include "SwitchRead.h"
+
+
+class SwitchReadInt : public SwitchRead
+{
+public:
+	SwitchReadInt();
+	SwitchReadInt(uint8_t pin1) : public SwitchRead(pin1) 
+	{
+		InitializeInt();
+	};
+	
+	SwitchReadInt(uint8_t pin1, uint8_t pin2 ): public SwitchRead(pin1)
+	{
+		InitializeInt();
+	};
+
+	  
+	~SwitchReadInt() {};
+	
+	
+private:
+	// initialize
+	void InitializeInt();
+	
+	
+	PCdetachInterrupt(uint8_t pin);
+	static void PCint(uint8_t port);
+
+	
+
+	
+	// the ISR
+	ISR(PCINT1_vect) {    // Interrupt service routine. Every single PCINT8..14 (=ADC0..5) change
+	            // will generate an interrupt: but this will always be the same interrupt routine
+		bool b;
+		for(int i=0 ; i<GetSize();i++)
+		{
+			b = digitalRead(index2pin(i));
+			Test(i,b);
+		}
+	};
+	
+	static int PCintMode[24];
+	typedef void (*voidFuncPtr)(void);
+	volatile static voidFuncPtr PCintFunc[24];
+	volatile static uint8_t PCintLast[3];
+	
+};
+
+#endif
