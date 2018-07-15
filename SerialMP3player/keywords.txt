@@ -22,42 +22,41 @@ SerialMP3Player	KEYWORD1
 
 
 
-NextSong		KEYWORD2
+NextSong	KEYWORD2
 
-PrevSong		KEYWORD2
+PrevSong	KEYWORD2
 
-Play			KEYWORD2
+Play	KEYWORD2
 
-PlayFolder		KEYWORD2
+PlayFolder	KEYWORD2
 
-Pause			KEYWORD2
+Pause	KEYWORD2
 
-Stop			KEYWORD2
+Stop	KEYWORD2
 
-PlayRepeat		KEYWORD2
+PlayRepeat	KEYWORD2
 
-StopRepeat		KEYWORD2
+StopRepeat	KEYWORD2
 
-PlayShuffle		KEYWORD2
+PlayShuffle	KEYWORD2
 
-PlayAtVolume		KEYWORD2
+PlayAtVolume	KEYWORD2
 
-PlayGroup		KEYWORD2
+PlayGroup	KEYWORD2
 
-VolumeUp		KEYWORD2
+VolumeUp	KEYWORD2
 
-VolumeDown		KEYWORD2
+VolumeDown	KEYWORD2
 
-SetVolume		KEYWORD2
+SetVolume	KEYWORD2
 
-Mute			KEYWORD2
+Mute	KEYWORD2
 
-	
-Reset			KEYWORD2
+Reset	KEYWORD2
 
-StartDAC		KEYWORD2
+StartDAC	KEYWORD2
 
-StopDAC			KEYWORD2
+StopDAC	KEYWORD2
 
 #######################################
 
